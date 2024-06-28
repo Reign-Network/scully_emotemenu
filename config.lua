@@ -24,7 +24,7 @@ Config = {
     -- Set this to '' to disable the key.
     PointKey = 'b', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this if you really wanna disable emotes in vehicles, if enabled they only play the upper body part of the emote.
-    AllowedInVehicles = true,
+    AllowedInVehicles = false,
     -- Cooldown in milliseconds between doing emotes.
     EmoteCooldown = 500,
     -- Commands to play an emote.
@@ -45,7 +45,7 @@ Config = {
     RagdollKeybind = 'u', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PtfxKeybind = 'g', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
-    -- You can enable automated ptfx on emotes with the Auto flag here. 
+    -- You can enable automated ptfx on emotes with the Auto flag here.
     EnableAutoPtfx = false,
     -- You can enable the NSFW emotes here. Can be true, false or 'limited'
     EnableNSFWEmotes = false,
